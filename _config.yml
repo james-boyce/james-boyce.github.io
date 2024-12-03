@@ -8,10 +8,10 @@
 
 # Basic Site Settings
 locale                   : "en-AU"
-title                    : "Personal Site"
+title                    : "Home"
 title_separator          : "-"
 name                     : &name "James Boyce"
-description              : &description "personal description"
+description              : &description "PhD Student"
 url                      : https://james-boyce.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "james-boyce/james-boyce.github.io"
