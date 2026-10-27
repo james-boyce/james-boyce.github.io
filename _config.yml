@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-AU"
-title                    : "Home"
+title                    : "James Boyce"
 title_separator          : "-"
 name                     : &name "James Boyce"
 description              : &description "PhD Student"

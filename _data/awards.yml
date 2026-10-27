@@ -1,0 +1,4 @@
+# Add confirmed awards only. Leave this list empty until the final details are available.
+# Each entry requires title, issuer, and year; url and description are optional.
+# This data is shared by the homepage and CV. Empty data renders no section.
+[]

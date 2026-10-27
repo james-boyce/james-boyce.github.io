@@ -1,0 +1,11 @@
+<div class="research-projects">
+  {% for project in site.data.research_projects %}
+  <article class="research-project">
+    <p class="research-project__number" aria-hidden="true">0{{ forloop.index }} / RESEARCH PROJECT</p>
+    <h3>{{ project.name }}</h3>
+    <p class="research-project__role">{{ project.role }}</p>
+    <p>{{ project.description }}</p>
+    <a class="research-project__link" href="{{ project.url }}">{{ project.label }} <span aria-hidden="true">↗</span></a>
+  </article>
+  {% endfor %}
+</div>

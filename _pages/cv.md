@@ -11,6 +11,8 @@ redirect_from:
 
 I am a PhD Student within UQ Business School, with a focus on Natural Language Processing, Machine Learning, and Information Systems. In addition, my current role as a Casual Academic involves teaching Machine Learning to both undergraduate and postgraduate business students, providing them with a platform for continuous learning and growth.
 
+{% include awards.html %}
+
 Education
 ======
 * Ph.D, School of Business, The University of Queensland (UQ), 2027 (Expected)
@@ -20,6 +22,7 @@ Work experience
 ======
 
 * 2021 - <i>present</i>: Casual Academic, The University of Queensland
+  * Teaching includes BISM3206, BISM7217, and BSAN7212
   * Teach postgraduate and undergraduate students how to use ML in python
   * Develop assessable material to allow students to critically think about real world applications of ML
 

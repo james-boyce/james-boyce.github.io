@@ -1,6 +1,7 @@
 ---
 title: "The University of Queensland"
 collection: teaching
+excerpt: "Teaching across BISM3206, BISM7217, and BSAN7212 at UQ Business School."
 type: "Undergraduate/Postgraduate Courses"
 permalink: /teaching/2021-UQ
 venue: "The University of Queensland, UQ Business School"
@@ -8,6 +9,8 @@ still_working: 'True'
 date: 2021-01-01
 location: "Brisbane, Australia"
 ---
+My teaching includes BISM3206, BISM7217, and BSAN7212.
+
 In the BISM3206 and BISM7217 courses, I teach postgraduate and undergraduate students how to apply Machine Learning using Python, while encouraging critical thinking about real-world applications. The courses have received excellent feedback, with students appreciating the course material, my clear explanations, approachability, and support in understanding complex concepts.
 
 Objective

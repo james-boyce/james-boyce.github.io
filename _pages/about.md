@@ -1,15 +1,50 @@
 ---
 permalink: /
-title: "👋 Welcome to My GitHub Page!"
+title: "AI, language & human decisions."
+classes: home-profile
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-Hey there! I'm **James** (j1m) – a **PhD student** at The University of Queensland (UQ), where I explore the fascinating world of **Natural Language Processing (NLP)**, **Machine Learning (ML)**, and **Information Systems** 🌐.
+<div class="research-intro" markdown="1">
+<p class="research-eyebrow">RESEARCH / BUILD / TRANSLATE</p>
 
-When I'm not diving into research or teaching, you’ll find me working on fun and impactful tech projects that bridge academic knowledge with real-world applications. 🚀
+Hey there! I'm **James** (j1m) – a **PhD student** at The University of Queensland (UQ), where I explore **Natural Language Processing (NLP)**, **Machine Learning (ML)**, and **Information Systems**.
+
+When I'm not diving into research or teaching, you’ll find me working on fun and impactful tech projects that bridge academic knowledge with real-world applications.
+
+<div class="research-actions">
+  <a class="research-button" href="{{ '/publications/' | relative_url }}">Explore my research <span aria-hidden="true">↗</span></a>
+  <a class="research-text-link" href="{{ '/research-projects/' | relative_url }}">Current projects <span aria-hidden="true">→</span></a>
+</div>
+</div>
+
+## Research in practice
+
+AI-enabled translation for more accessible science and emergency communication.
+
+{% include research-projects.html %}
+
+## Latest publications
+
+{% assign latest_publications = site.publications | sort: "date" | reverse %}
+<div class="latest-publications">
+{% for publication in latest_publications limit:2 %}
+  <article>
+    <p class="research-eyebrow">{{ publication.date | date: '%Y' }} / {% if publication.category == 'manuscripts' %}JOURNAL ARTICLE{% else %}CONFERENCE PAPER{% endif %}</p>
+    <h3><a href="{{ publication.url | relative_url }}">{{ publication.title }}</a></h3>
+    <p>{{ publication.venue }}</p>
+  </article>
+{% endfor %}
+</div>
+
+[View all publications and presentations →]({{ '/publications/' | relative_url }})
+
+---
+
+{% include awards.html %}
 
 ### 🔍 What I Do
 
@@ -23,7 +58,7 @@ When I'm not diving into research or teaching, you’ll find me working on fun a
 
 ### 📊 GitHub Activity
 
-[![j1m's Github Activity](https://github-readme-activity-graph.vercel.app/graph?username=james-boyce&theme=github-compact)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[View my GitHub activity and contributions →](https://github.com/james-boyce)
 
 ---
 
