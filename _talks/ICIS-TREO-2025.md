@@ -5,7 +5,9 @@ citation: "Boyce, J. (2024). The matrix of influence: Generative AI digital nudg
 type: "TREO Talk"
 talk_type: "TREO Talk"
 presenter: "James Boyce"
-permalink: /talks/ICIS-TREO-2025
+permalink: /talks/ICIS-TREO-2025/
+redirect_from:
+  - /talks/ICIS-TREO-2025.html
 venue: "ICIS 2024 TREOS, Marriott Marquis Queen’s Park"
 excerpt: "This talk explores the use of Generative AI (GAI), combined with Natural Language Processing (NLP) and Machine Learning (ML), to create dynamic, personalized digital nudges that adapt to user behavior in real time. Unlike traditional predefined nudges, GAI-driven nudges offer greater flexibility and responsiveness, enhancing user engagement and decision-making. The research aims to bridge AI personalization with practical applications in Information Systems and explore ethical considerations in AI-driven user experience design."
 date: 2024-12-15

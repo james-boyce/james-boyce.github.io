@@ -3,7 +3,9 @@ title: "The University of Queensland"
 collection: teaching
 excerpt: "Teaching across BISM3206, BISM7217, and BSAN7212 at UQ Business School."
 type: "Undergraduate/Postgraduate Courses"
-permalink: /teaching/2021-UQ
+permalink: /teaching/2021-UQ/
+redirect_from:
+  - /teaching/2021-UQ.html
 venue: "The University of Queensland, UQ Business School"
 still_working: 'True'
 date: 2021-01-01

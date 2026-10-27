@@ -2,7 +2,9 @@
 title: "The Interplay of Heuristic and Systematic Processing of Information in News Validation: A Natural Language Processing Approach"
 collection: publications
 category: conferences
-permalink: /publication/HICSS-2025
+permalink: /publication/HICSS-2025/
+redirect_from:
+  - /publication/HICSS-2025.html
 excerpt: "This study explores how text features, such as content similarity, loaded language, and sentiment intensity, influence users' perceptions of online news validity, offering insights for improving news credibility assessment on social media platforms."
 date: 2025-01-08
 venue: '58th Hawaii International Conference on System Sciences'

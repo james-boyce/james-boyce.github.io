@@ -2,7 +2,9 @@
 title: "Moderating Effects of Time-Related Factors in Predicting the Helpfulness of Online Reviews: a Deep Learning Approach"
 collection: publications
 category: conferences
-permalink: /publication/HICSS-2021
+permalink: /publication/HICSS-2021/
+redirect_from:
+  - /publication/HICSS-2021.html
 excerpt: 'This study develops a model to predict the helpfulness of online product reviews using signaling and social influence theories, incorporating review order and time intervals. Applying deep learning to 239,297 reviews, the model outperforms existing approaches and offers insights for sorting new reviews.'
 date: 2021-01-06
 venue: '54th Hawaii International Conference on System Sciences'
